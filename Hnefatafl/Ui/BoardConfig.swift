@@ -11,7 +11,7 @@ import CoreGraphics
 
 struct BoardConfig {
     let numSquares = 11
-    let gridLineSize: CGFloat = 1
+    let gridLineSize: CGFloat = 2
     var boardSize: CGFloat
     var boardRect: NSRect
     var squareSize: CGFloat

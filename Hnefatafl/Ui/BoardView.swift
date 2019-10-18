@@ -10,7 +10,6 @@ import Foundation
 import CoreGraphics
 import Cocoa
 
-
 class BoardView : NSView
 {
     let boardColor = CGColor(red: 0.5, green: 0.3, blue: 0, alpha: 1)
