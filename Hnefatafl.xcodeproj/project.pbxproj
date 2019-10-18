@@ -15,6 +15,7 @@
 		EAC654A62358FC460074DD58 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC654A42358FC460074DD58 /* BoardView.swift */; };
 		EAC654A72358FC460074DD58 /* BoardConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC654A52358FC460074DD58 /* BoardConfig.swift */; };
 		EAC654AD235A37CB0074DD58 /* BoardGeometry.c in Sources */ = {isa = PBXBuildFile; fileRef = EAC654AC235A37CB0074DD58 /* BoardGeometry.c */; };
+		EAC654B1235A425B0074DD58 /* BoardGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC654B0235A425B0074DD58 /* BoardGeometryTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		EAC654AA235A37CA0074DD58 /* Hnefatafl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hnefatafl-Bridging-Header.h"; sourceTree = "<group>"; };
 		EAC654AB235A37CB0074DD58 /* BoardGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoardGeometry.h; sourceTree = "<group>"; };
 		EAC654AC235A37CB0074DD58 /* BoardGeometry.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BoardGeometry.c; sourceTree = "<group>"; };
+		EAC654B0235A425B0074DD58 /* BoardGeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGeometryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				EAC654922358F8960074DD58 /* HnefataflTests.swift */,
 				EAC654942358F8960074DD58 /* Info.plist */,
+				EAC654B0235A425B0074DD58 /* BoardGeometryTests.swift */,
 			);
 			path = HnefataflTests;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC654B1235A425B0074DD58 /* BoardGeometryTests.swift in Sources */,
 				EAC654932358F8960074DD58 /* HnefataflTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

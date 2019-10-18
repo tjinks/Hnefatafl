@@ -26,7 +26,7 @@ static void initializeEdge(void)
 
 static void initializeIndexes(void)
 {
-    for (int i = 0; i < boardSize + 1; i++) {
+    for (int i = 0; i < numSquares; i++) {
         bg[i].index = i;
     }
 }
@@ -37,10 +37,10 @@ static void initializeAdjacent(void)
         for (int x = 0; x < boardSize; x++) {
             int index = x + boardSize * y;
             Square *sq = bg + index;
-            sq->east = (x > 0 ? sq - 1 : edge);
-            sq->west = (x < boardSize - 1 ? sq + 1 : edge);
+            sq->west = (x > 0 ? sq - 1 : edge);
+            sq->east = (x < boardSize - 1 ? sq + 1 : edge);
             sq->north = (y < boardSize - 1 ? sq + boardSize : edge);
-            sq->south = (y > 0 ? sq - 1 : edge);
+            sq->south = (y > 0 ? sq - boardSize : edge);
         }
     }
 }
