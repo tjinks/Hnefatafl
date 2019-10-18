@@ -11,6 +11,7 @@
 
 #include <stdbool.h>
 
+
 const int boardSize = 11;
 const int numSquares = boardSize * boardSize;
 
